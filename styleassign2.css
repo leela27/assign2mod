@@ -1,0 +1,118 @@
+
+{
+    font-family: sans-serif;
+    margin: 0px;
+}
+li{
+    display: inline;
+    padding: 40px;
+    top: 0px;
+}
+ul a{
+    text-decoration: none;
+}
+nav{
+    top:0px;
+    position: relative;
+}
+
+
+header{
+    background-color:teal;
+    height: 100px;
+    width: 1600px;
+    position: fixed;
+    top:0px;
+    text-transform: capitalize;
+
+}
+header figure img{
+    position: absolute;
+    margin-left: 0px;
+    top: 10px;
+    bottom: 10px;
+    widows: 100px;
+    height: 70px;
+    padding: 10px;
+}
+
+
+
+h1{
+    
+    text-align: center;
+    padding: 30px;
+}
+
+article1
+{
+    width: 600px;
+    height: 700px;
+    background: khaki;
+    padding: 5px;
+    margin-left: 10px;
+    margin:0px;
+
+
+}
+article2
+{
+    width: 600px;
+    height: 700px;
+    background:lightgreen;
+    padding: 5px;
+    margin-left: 10px;
+    margin:0px;
+
+
+}
+article3
+{
+    width: 600px;
+    height: 700px;
+    background:skyblue;
+    padding: 5px;
+    margin-left: 10px;
+    margin:0px;
+
+
+}
+section{
+    display: flex;
+}
+footer img{
+    float: right;
+}
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("img/bb.jpg");
+  
+    /* Set a specific height */
+    width: 1600px;
+    height: 600px;
+    top: 0px;
+    margin: 0px;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    
+  }
+  
+  /* Place text in the middle of the image */
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  footer{
+      background-color: teal; 
+      height: 100px;
+      width: 1600px;
+  }
